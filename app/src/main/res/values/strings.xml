@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Divide and conquer</string>
+    <string name="can_you_divide_and_conquer">Divide and Conquer!</string>
+    <string name="ready_to_fight">Ready to fight?!</string>
+
+    <string name="question_1">Question 1:   What is 4356 divided by 24?</string>
+    <string name="question_1a">A. 181</string>
+    <string name="question_1b">B. 181.5</string>
+    <string name="question_1c">C. 173</string>
+    <string name="question_1d">D. All of the above</string>
+
+    <string name="question_2">Question 2:   What is 525 divided by 5?</string>
+    <string name="question_2a">A. 105</string>
+    <string name="question_2b">B. 5</string>
+    <string name="question_2d">D. 50</string>
+    <string name="question_2c">C. 100</string>
+
+    <string name="question_3">Question 3:   What is 32322 divided by 12?</string>
+    <string name="question_3a">A. 2500</string>
+    <string name="question_3b">B. 2693.5</string>
+    <string name="question_3c">C. 2493.5</string>
+    <string name="question_3d">D. 24</string>
+
+
+    <string name="question_4">Question 4:   What is 5280 divided by 12?</string>
+    <string name="question_4a">A. 400</string>
+    <string name="question_4b">B. 440</string>
+    <string name="question_4c">C. 455</string>
+    <string name="question_4d">D. None of the above</string>
+
+    <string name="submit_answers">Submit Answers</string>
+    <string name="score">Score</string>
+    <string name="scoreValue">0</string>
+
+    <string name="question_5">Question 5:   Which of the following is TRUE? (More than one correct answer)</string>
+    <string name="question5a_correct">A number divided into itself equals 1</string>
+    <string name="question5b_correct">100 divided by 4 equals 25</string>
+    <string name="question5c_false">The DIVIDEND is the answer to a division problem</string>
+    <string name="question5d_Correct">The QUOTIENT is the answer to a division problem</string>
+
+    <string name="question_6">Question 6:   What is the name of the number to be divided by? (In 50 divided by 4, what is the number 4 called?)</string>
+    <string name="question_6_text_answer">divisor</string>
+
+    <string name="question_7">Question 7</string>
+    <string name="question_8">Question 8</string>
+
+
+
+
+    <string name="reset_button">Reset</string>
+
+
+</resources>
