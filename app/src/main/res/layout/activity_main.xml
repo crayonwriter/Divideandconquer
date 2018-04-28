@@ -22,24 +22,24 @@
             android:text="@string/can_you_divide_and_conquer"
             android:textAlignment="center"
             android:textColor="@color/colorText"
-            android:textSize="25sp" />
+            android:textSize="@dimen/largeText" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/marginTopSmall"
             android:text="@string/ready_to_fight"
             android:textAlignment="center"
             android:textColor="@color/colorText"
-            android:textSize="20sp" />
+            android:textSize="@dimen/mediumText" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_1"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -90,10 +90,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_2"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -145,10 +145,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_3"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -196,10 +196,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_4"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -248,10 +248,10 @@
             android:id="@+id/question_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_5"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <CheckBox
             android:id="@+id/question_5aCorrect"
@@ -293,10 +293,10 @@
             android:id="@+id/question_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/marginTopSmall"
             android:text="@string/question_6"
             android:textColor="@color/colorText"
-            android:textSize="15sp" />
+            android:textSize="@dimen/smallText" />
 
         <EditText
             android:id="@+id/question_6Answered"
