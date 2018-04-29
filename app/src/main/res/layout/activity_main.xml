@@ -303,7 +303,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimaryDark"
-            android:inputType="text"
+            android:hint="@string/hint"
+            android:inputType="textMultiLine"
             android:onClick="onQuestionSixClicked"
             android:textColor="@color/colorText" />
 

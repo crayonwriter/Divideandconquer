@@ -38,16 +38,19 @@
     <string name="question5c_false">The DIVIDEND is the answer to a division problem</string>
     <string name="question5d_Correct">The QUOTIENT is the answer to a division problem</string>
 
-    <string name="question_6">Question 6:   What is the name of the number to be divided by? (In 50 divided by 4, what is the number 4 called?)</string>
+    <string name="question_6">Question 6:   What is the name of the number to be divided by? (In 50 divided by 4, what is the number 4 called?) You MUST click enter or the check button. </string>
     <string name="question_6_text_answer">divisor</string>
 
     <string name="question_7">Question 7</string>
     <string name="question_8">Question 8</string>
+    <string name="hint">Type your answer here, then click checkmark</string>
 
 
 
 
     <string name="reset_button">Reset</string>
+    <string name="correctAnswer6Response">divisor</string>
+    <string name="testanswer">DIVISOR</string>
 
 
 </resources>
