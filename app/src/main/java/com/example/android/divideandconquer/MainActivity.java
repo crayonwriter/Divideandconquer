@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
+import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox question_5aCorrect;
     CheckBox question_5bCorrect;
     CheckBox question_5dCorrect;
+    CheckBox question_5cWrong;
 
 
     @Override
@@ -122,6 +124,9 @@ public class MainActivity extends AppCompatActivity {
 
     //This is the checkbox list for question five, where A, B, and D have to be checked in order for a point to be added.
     public void onQuestionFiveClicked(View view) {
+        boolean almostRight = false;
+        boolean right = true;
+
         question_5aCorrect = findViewById(R.id.question_5aCorrect);
         boolean correctAnswer5aChecked = question_5aCorrect.isChecked();
 
@@ -131,19 +136,30 @@ public class MainActivity extends AppCompatActivity {
         question_5dCorrect = findViewById(R.id.question_5dCorrect);
         boolean correctAnswer5dChecked = question_5dCorrect.isChecked();
 
+        question_5cWrong = findViewById(R.id.question_5c);
+        boolean wrongAnswer5cChecked = question_5cWrong.isChecked();
+
         // Correct answer when A, B, and D are checked, and one point is added to the number of correct answers
         if (correctAnswer5aChecked && correctAnswer5bChecked && correctAnswer5dChecked) {
+            almostRight = true;
+        }
+        if (wrongAnswer5cChecked) {
+            right = false;
+        }
+
+        if (almostRight && right) {
             numberCorrectAnswers = numberCorrectAnswers + 1;
-        } else {
-            numberCorrectAnswers = numberCorrectAnswers + 0;
         }
     }
 
     //This is the input text question number six. The user has to enter "divisor" and press enter.
     public void onQuestionSixClicked(View view) {
+
+        String question_6_text_answer = getString(R.string.correctAnswer6Response);
+
         EditText inputTextQuestion6 = findViewById(R.id.question_6Answered);
-        String questionSixAnswer = inputTextQuestion6.getText().toString();
-        String question_6_text_answer = "divisor";
+        String questionSixAnswer = inputTextQuestion6.getText().toString().toUpperCase();
+
 
         // Correct answer, case doesn't matter, and one point is added to the number of correct answers
         if (questionSixAnswer.equalsIgnoreCase(question_6_text_answer)) {

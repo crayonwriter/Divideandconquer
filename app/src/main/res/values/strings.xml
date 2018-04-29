@@ -21,16 +21,11 @@
     <string name="question_3c">C. 2493.5</string>
     <string name="question_3d">D. 24</string>
 
-
     <string name="question_4">Question 4:   What is 5280 divided by 12?</string>
     <string name="question_4a">A. 400</string>
     <string name="question_4b">B. 440</string>
     <string name="question_4c">C. 455</string>
     <string name="question_4d">D. None of the above</string>
-
-    <string name="submit_answers">Submit Answers</string>
-    <string name="score">Score</string>
-    <string name="scoreValue">0</string>
 
     <string name="question_5">Question 5:   Which of the following is TRUE? (More than one correct answer)</string>
     <string name="question5a_correct">A number divided into itself equals 1</string>
@@ -43,14 +38,11 @@
 
     <string name="question_7">Question 7</string>
     <string name="question_8">Question 8</string>
+
     <string name="hint">Type your answer here, then click checkmark</string>
-
-
-
+    <string name="submit_answers">Submit Answers</string>
 
     <string name="reset_button">Reset</string>
     <string name="correctAnswer6Response">divisor</string>
-    <string name="testanswer">DIVISOR</string>
-
 
 </resources>
